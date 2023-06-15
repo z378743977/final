@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Witcher 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	
+  <div class="container"> 
+	<div id="anniu">
+      <div class="item">
+		  <button class="button" onclick="changeText('REGION')"></button>
+        <div class="text">丨REGION</div>
+      </div>
+      <div class="item">
+		  <button class="button" onclick="changeText('CHARACTER')"></button>
+        <div class="text">丨CHARACTER</div>
+      </div>
+      <div class="item">
+		  <button class="button" onclick="changeText('SIGN')"></button>
+        <div class="text">丨SIGN</div>
+      </div>
+	  </div>
+	  <!--               ！！！！凯尔莫寒字体部分！！！！              -->
+	  <div id="zitiPart">
+	  <img class="characterText hideable" src="kaer morhen.png"></div>
+	      <div class="characterPartText hideable">Kaer Morhen (corruption of Elder Speech: Caer a'Muirehen, <br>
+	  meaning Keep of the Elder Sea) is an old keep<br>
+	   where witchers of the School of the Wolf used to be trained. <br>
+	  It is located in the Blue Mountains of Hertch in the kingdom of Kaedwen, <br>
+	  right off the Gwenllech river. The castle can only be reached by "The Witchers Trail", <br>
+	  nicknamed "The Killer", which is easy to miss and encircles the keep. <br>
+	   While Trials and Changes are no longer performed here, witchers still tend to rest here <br>
+	  between their assignments—usually during the winter, <br>
+	  after which they set out on The Path again.</div>
+	  </div>
+	  
+	  <div id="image-container">
+		  <div id="sanzhaopian">
+		  <div id="atlasText" class="hideable">- ATLAS -</div>
+		  <br>
+		  <div>
+	  <img id="image1" class="image hideable" src="image1.jpg">
+      <img id="image2" class="image hideable" src="image2.jpg">
+      <img id="image3" class="image hideable" src="image3.jpg">
+	  </div>
+	  </div>
+	  </div>
+    </div>
+	<div id="dazhaopian">
+    <img id="weisemier" class="image hideable" src="weisemier2.png">
+    <img id="imageMap" class="image hideable" src="image_map.jpg">
+	</div>
+	<div class="kaerMap hideable"> " From there they could see the ruins of Kaer Morhen huddled against the stone precipices -<br> the partially demolished trapezium of the defensive wall,<br> the remains of the barbican and gate, the thick, blunt column of the donjon.	
+donjon. "<br></div>
+<div class="kaerMap1 hideable">- pg. 51, Blood of Elves (UK edition)</div>
+  <div id="region-text" class="region-text">REGION</div>
+   
+   
+	<div id="new-elements" style="display: none;">
+	  <img id="weiseXiao" class="image" src="weisemier.png">
+	  <img id="weiseDa" class="image" src="vesemir.png">
+<!--		<b id="more">MORE</b>-->
+	  <div id="page2vesemirName1">Vesemir</div>
+	  <div id="page2vesemirName2">Vesemir</div>
+	  <div id="page2vesemirNameSm">School of the Wolf</div>
+	  <div id="page2vesemirStory">Vesemir was the oldest and most experienced witcher at Kaer Morhen<br>
+	   in the 13th century and acted as a father figure to Geralt and the other witchers. <br>
+	  Like many of the other witchers, <br>
+	  he spent each winter in the fortress and set out on the path when spring arrived.<br><br>
+	  He was one of the few members of the School of the Wolf to survive the assault on Kaer Morhen. <br>
+	  By the 1260s, he was the sole old witcher remaining; <br>
+	  however, as he was only a fencing instructor, <br>
+	  he didn't possess the knowledge necessary to create <br>
+	  new mutagens in order to mutate more disciples into witchers.<br></div>
+	  <video id="vesemirVideo" controls>
+	    <source src="vesemir.mp4" type="video/mp4">
+	    Your browser does not support the video tag.
+	  </video>
+	</div>
+	
+	
+	<div id="sign-elements">
+	  <div id="shipin1">
+	  <video src="quen.mp4" controls class="video5"></video>
+	  <img id="jiucai1" src="sign1.png">
+	  <div id="xiaochuang">
+	  <p class="signmingzi">Quen</p>
+	  <p class="jiucaizi">a protective shield that lasts for 30 seconds at the sign's basic level. <br>It is a sign that Geralt uses on himself – quen absorbs all damage directed at Geralt, <br>and the upgraded version reflects 50% of the damage back toward to enemy. <br>While quen is in effect, Geralt cannot regenerate vigor.</p>
+	  </div>
+	  </div>
+	  <div id="shipin2">
+	  <video src="yrden.mp4" controls class="video5"></video>
+	  <img id="jiucai2" src="sign2.png">
+	  <div id="xiaochuang">
+	  <p class="signmingzi">Yrden</p>
+	  <p class="jiucaizi">a magical trap placed on the ground, <br>which will wound and immobilize opponents. <br>The sign's basic level allows you to place a single yrden sign on the ground. <br>After upgrading it, you'll be able to place up to three yrden signs at a time. <br>These will work in unison, creating an impassible barrier.</p>
+	  </div>
+	  </div>
+	  <div id="shipin3">
+	  <video src="aard.mp4" controls class="video5"></video>
+	  <img id="jiucai3" src="sign3.png">
+	  <div id="xiaochuang">
+	  <p class="signmingzi">Aard</p>
+	  <p class="jiucaizi">a telekinetic wave that can throw back, <br>knock down or stun an opponent. <br>This sign can also be used to destroy obstacles, <br>for example crumbling walls or stacks of barrels.</p>
+	  </div>
+	  </div>
+	  <div id="shipin4">
+	  <video src="igni.mp4" controls class="video5"></video>
+	  <img id="jiucai4" src="sign4.png">
+	  <div id="xiaochuang">
+	  <p class="signmingzi">Igni</p>
+	  <p class="jiucaizi">a gush of flames that wounds opponents. <br>When upgraded, the sign has a chance of incinerating opponents <br>and has a larger area of effect. <br>It can also be used to detonate flammable gases emitted by some bombs.</p>
+	  </div>
+	  </div>
+	  <div id="shipin5">
+	  <video src="axii.mp4" controls class="video5"></video>
+	  <img id="jiucai5" src="sign5.png">
+	  <div id="xiaochuang">
+	  <p class="signmingzi">Axii</p>
+	  <p class="jiucaizi">a charm placed on an opponent. If the charm attempt is successful, <br>the enemy will become your ally for a short while, <br>fighting at your side.</p>
+	  </div>
+	  </div>
+	  <!-- <p id="quenText"><b>Quen sign</b><br><br>a protective shield that lasts for 30 seconds at the sign's basic level. <br>It is a sign that Geralt uses on himself – quen absorbs all damage directed at Geralt,<br> and the upgraded version reflects 50% of the damage back toward to enemy.<br> While quen is in effect, Geralt cannot regenerate vigor.</p> -->
+	</div>
+
+	
+<script src="script.js"></script>
+</body>
+</html>
+
